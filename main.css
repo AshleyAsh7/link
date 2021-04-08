@@ -1,0 +1,129 @@
+body{
+    cursor: url(asset/hoverbutterfly.svg),auto;
+    background-image:url(asset/background.svg);
+    background-size:cover;
+    margin:0 auto;
+    justify-content: center;
+    justify-items: center;
+    background-repeat:no-repeat;
+
+}
+a {cursor: url(asset/hoverbutterfly.svg),auto; 
+} 
+.icon-container{
+    position: relative;
+    display: flex;
+    width: 12%;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin-left: 44%;
+    margin-top: -5%;
+    column-gap: 100px;
+}
+.alogo{
+    position: relative;
+    margin: 0% auto;
+    text-align: center;
+    /*display:flex;*/
+    height:50%;
+    /*grid-template-columns: 1fr;*/
+    /*grid-template-rows: 1fr;*/
+    /*margin-left:45%;*/
+    margin-top:5%;
+    justify-items: center
+
+  
+}
+.name{
+    position: relative;
+    margin: 0% auto;
+    font-family: 'MightyDiteyNF';
+    letter-spacing:4px;
+    /*line-height:5%;*/
+    /*margin-left:41%;*/
+    /*padding: 10px;*/
+    font-size: 25px;
+    /*display: flex;*/
+    text-align: center;
+    justify-items: center;
+
+
+}
+.title{
+    font-family: 'Raleway', sans-serif;
+    /*display:flex;*/
+    margin:0 auto;
+    position:relative;
+    text-align: center;
+    /*letter-spacing: 4px;*/
+    bottom: 50px;
+    padding: 2px;
+    font-size:15px;
+    justify-items: center;
+}
+.buttonlink{
+    text-align: center;
+    margin-top: 30;
+    justify-content: center;
+    justify-items: center;
+}
+.links{
+    text-align: center;
+    margin-top: 30;
+    padding:.5px;
+    margin-bottom: 15px;
+    background-color:white;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    font-family:'aileronultralight';
+    letter-spacing: 2px;
+    color: black;
+    position: relative;
+
+}
+a.links{
+    text-decoration: none;
+    color:#2DAAB3;
+    transition: color 0.5s;
+    font-size: 15px;
+}
+.links:hover{
+    color:white;
+    background-image: url(asset/button.svg);
+    font-family:'aileronlight';   
+}
+@font-face {
+    font-family: 'MightyDiteyNF';
+    src: url('asset/fonts/mightyditeynf_regular_macroman/MightyDiteyNF-webfont.woff2') format('woff2'),
+         url('asset/fonts/mightyditeynf_regular_macroman/MightyDiteyNF-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aileronlight';
+    src: url('asset/fonts/aileron_light_macroman/Aileron-Light-webfont.eot');
+    src: url('asset/fonts/aileron_light_macroman/Aileron-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('asset/fonts/aileron_light_macroman/Aileron-Light-webfont.woff2') format('woff2'),
+         url('asset/fonts/aileron_light_macroman/Aileron-Light-webfont.woff') format('woff'),
+         url('asset/fonts/aileron_light_macroman/Aileron-Light-webfont.ttf') format('truetype'),
+         url('asset/fonts/aileron_light_macroman/Aileron-Light-webfont.svg#aileronlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aileronultralight';
+    src: url('asset/fonts/aileron_ultralight_macroman/Aileron-UltraLight-webfont.eot');
+    src: url('asset/fonts/aileron_ultralight_macroman/Aileron-UltraLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('asset/fonts/aileron_ultralight_macroman/Aileron-UltraLight-webfont.woff2') format('woff2'),
+         url('asset/fonts/aileron_ultralight_macroman/Aileron-UltraLight-webfont.woff') format('woff'),
+         url('asset/fonts/aileron_ultralight_macroman/Aileron-UltraLight-webfont.ttf') format('truetype'),
+         url('asset/fonts/aileron_ultralight_macroman/Aileron-UltraLight-webfont.svg#aileronultralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
